@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página sobre Sabino, un adorable Pomeranian.">
+    <title>Sabino, el Pomeranian</title>
+</head>
+<body>
+    <header>
+        <h1>Sabino, el adorable Pomeranian</h1>
+        <p>Conoce más sobre este encantador perrito lleno de energía y ternura.</p>
+    </header>
+    
+    <main>
+        <section>
+            <h2>¿Quién es Sabino?</h2>
+            <p>Sabino es un pomeranian juguetón y lleno de vida. Le encanta correr, saltar y, sobre todo, recibir abrazos de todos los que lo conocen.</p>
+            <img src="imagenes/sabino1.jpeg" alt="Sabino, un adorable pomeranian" width="300" height="auto">
+        </section>
+
+        <section>
+            <h2>Características principales</h2>
+            <ul>
+                <li>Tamaño pequeño pero gran personalidad.</li>
+                <li>Color de pelaje: <strong>naranja dorado</strong>.</li>
+                <li>Edad: 2 años.</li>
+                <li>Hobbies: Dormir, correr y no es fan de la navidad.</li>
+            </ul>
+            <img src="imagenes/sabino2.jpeg" alt="Sabino sin espiritu navideño" width="300" height="auto">
+        </section>
+
+        <section>
+            <h2>¡Conoce más sobre los perritos como sabino!</h2>
+            <p>Puedes leer mas información en la siguiente pagina.</p>
+            <a href="https://www.expertoanimal.com/razas-de-perros/pomerania.html" target="_blank">expertoanimal</a>
+        </section>
+
+        <section>
+            <h2>Formulario de contacto</h2>
+            <p>Si quieres saber más sobre Sabino, rellena el formulario a continuación:</p>
+            <form action="procesar_formulario.php" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <br>
+                <label for="correo">Correo Electrónico:</label>
+                <input type="email" id="correo" name="correo" required>
+                <br>
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                <br>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Página creada por Eve.</p>
+    </footer>
+</body>
+</html>
